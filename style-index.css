@@ -1,0 +1,57 @@
+:root   {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    /*  */
+    border: 2px solid red;
+}
+
+header  {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /*  */
+    border-color: ;
+}
+
+h1  {
+    font-family: serif;
+    font-weight: lighter;
+    letter-spacing: .5em;
+    margin-left: 3em;
+    margin-right: auto;
+    text-decoration-line: underline;
+    /*  */
+    background-color: salmon;
+}
+
+#header-list    {
+    align-items: center;
+    display: flex;
+    gap: 1.5em;
+    list-style-type: none;
+    margin-right: 3em;
+    padding: 0;
+    /*  */
+    background-color: seagreen;
+}
+
+#profile-pic-container  {
+    align-items: center;
+    display: flex;
+    margin-right: 1em;
+    /*  */
+    background-color: royalblue;
+}
+
+#profile-pic    {
+    width: 6vw;
+    border-radius: 50%;
+    height: 4vh;
+    margin: 0;
+}
