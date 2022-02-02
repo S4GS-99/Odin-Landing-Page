@@ -20,7 +20,7 @@ header  {
 	background-color: #1f2937;
 	color: #f9faf8;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	padding-bottom: .25em;
 	width: 100%;
 }
@@ -32,9 +32,8 @@ header .flex-items {
 	justify-content: center;
 }
 
-.left-items {
-	margin-left: 3em;
-	margin-right: auto;
+header .left-items {
+	margin-left: 15em;
 }
 
 h1  {
@@ -44,8 +43,8 @@ h1  {
 	text-decoration-line: underline;
 }
 
-.right-items    {
-	margin-right: 3em;
+header .right-items    {
+	margin-right: 15em;
 }
 
 #header-list    {
@@ -62,12 +61,14 @@ h1  {
 }
 
 /* MAIN */
+/* INTRO */
 main{
 	display: flex;
 	flex-direction: column;
 }
 
 .intro  {
+	padding: 5em 15em; 
 	background-color: #1f2937;
 	color: #f9faf8;
 	display: flex;
@@ -76,13 +77,42 @@ main{
 
 .intro .flex-items  {
 	display: flex;
+	width: 50%;
+	/*  */
+	background-color: chocolate;
+}
+
+.intro h2	{
+	font-size: 3em;
+	font-weight: bolder;
+	margin: 0;
+	text-align: start;
+	width: 50%;
+}
+
+.intro p	{
+	/* margin: 0; */
+	text-align: left;
+	width: 90%;
+	margin-bottom: 0;
+}
+
+.intro button	{
+	width: 6em;
+	height: 2em;
+	border-radius: .5em;
+	margin: .5em 0;
+}
+
+#intro-picture  {
+	width: 25em;
+	height: 12.5em;
 }
 
 .intro .left-items	{
 	flex-direction: column;
 }
 
-#intro-picture  {
-	width: 22.5em;
-	height: 10em;
+.intro .right-items	{
+	align-content: center;
 }
