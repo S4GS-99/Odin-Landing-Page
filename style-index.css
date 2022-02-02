@@ -10,19 +10,21 @@ body  {
 ::after {
     box-sizing: inherit;
     /*  */
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 header  {
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    padding: .25em;
     width: 100%;
 }
 
-.left-items,
-.right-items {
+header .flex-items {
     display: flex;
     align-items: center;
+    height: 2.5em;
     justify-content: center;
     /*  */
     background-color: blanchedalmond;
@@ -30,13 +32,14 @@ header  {
 
 .left-items {
     margin-left: 3em;
+    margin-right: auto;
 }
 
 h1  {
     font-family: serif;
     font-weight: lighter;
     letter-spacing: .5em;
-    /* margin-right: auto; */
+
     text-decoration-line: underline;
 }
 
@@ -53,18 +56,12 @@ h1  {
     padding: 0;
 }
 
+.profile-container  {
+    /* margin-right: .25em; */
+}
+
 #profile-pic    {
-    width: 4em;
+    width: 2.5em;
     border-radius: 100%;
-    height: 3em;
+    height: 2em;
 }
-/* 
-#header-list    {
-
-}
-
-#profile-pic-container  {
-    align-items: center;
-    display: flex;
-}
- */
