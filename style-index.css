@@ -105,8 +105,9 @@ nav .right-items	{
 	font-weight: bolder;
 }
 .intro picture	{
+	display: flex;
+	justify-content: center;
 	width: 100%;
-	display: flex;justify-content: center;
 }
 
 #intro-picture  {
@@ -124,20 +125,56 @@ nav .right-items	{
 }
 
 .info-container	{
+	align-items: center;
 	display: flex;
-	justify-content: center;
 	gap: 2em;
+	justify-content: center;
+	margin-bottom: 2em;
 }
 
 .info-items	{
-	width: 200px;
-	height: 300px;
 	display: flex;
-	flex-direction: column;
-	/*  */
-	background-color: aqua;
+	flex-wrap: wrap;
+	height: 400px;
+	justify-content: center;
+	text-align: center;
+	width: 300px;
 }
 
 .info-picture	{
-	
+	align-items: center;
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	width: 250px;
 }
+
+.info-picture a	{
+	height: 100%;
+	width: 100%;
+}
+
+.info-picture img	{
+	border: 5px solid #3882f6;
+	border-radius: 1em;
+	height: 100%;
+	object-fit: fill;
+	width: 100%;
+}
+
+.info-items p	{
+	align-self: flex-end;
+	color: #1f2937;
+	height: 80px;
+	margin: 0;
+	font-weight: lighter;
+}
+
+/*  */
+
+
+
+
+
+
+
