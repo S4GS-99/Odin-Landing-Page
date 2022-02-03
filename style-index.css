@@ -128,3 +128,16 @@ nav .right-items	{
 	justify-content: center;
 	gap: 2em;
 }
+
+.info-items	{
+	width: 200px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	/*  */
+	background-color: aqua;
+}
+
+.info-picture	{
+	
+}
