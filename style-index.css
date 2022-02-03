@@ -1,16 +1,15 @@
 :root,
 body  {
 	box-sizing: border-box;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	color: #1f2937;
 }
 
 *,
 ::before,
 ::after {
 	box-sizing: inherit;
-	/*  */
-	border: 1px solid red;
 }
 
 img	{
@@ -117,7 +116,7 @@ nav .right-items	{
 }
 
 /* MAIN */
-.info h2	{
+#info h2	{
 	color: #1f2937;
 	font-size: 2rem;
 	margin: 1em 0;
@@ -155,7 +154,7 @@ nav .right-items	{
 }
 
 .info-picture img	{
-	border: 5px solid #3882f6;
+	border: 8px solid #3882f6;
 	border-radius: 1em;
 	height: 100%;
 	object-fit: fill;
@@ -167,12 +166,83 @@ nav .right-items	{
 	color: #1f2937;
 	height: 80px;
 	margin: 0;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 /*  */
 
+#quote	{
+	background-color: #e5e7eb;
+	color: #1f2937;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
+blockquote	{
+	font-size: 2.5rem;
+	margin-bottom: 0;
+	padding: 1em;
+	text-align: justify;
+	width: 70%;
+	font-weight: 200;
+}
+#quote p	{
+	font-size: 1.5rem;
+	margin-left: 60em;
+	font-weight: 900;
+}
+
+/*  */
+#newsletter	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+}
+
+.newsletter-box	{
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: .5em;
+	padding: 2em 3em;
+	gap: 2em;
+	display: flex;
+	align-items: center;
+}
+
+.newsletter-box h3,
+.newsletter-box p	{
+	margin: 0;
+	padding: .5em;
+}
+
+.newsletter-box button	{
+	background-color: #3882f6;
+	border: 2ps solid #f9faf8;
+	border-radius: .5em;
+	width: 6em;
+	height: 2em;
+	color: #f9faf8;
+}
+
+/* FOOTER */
+footer	{
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f9faf8;
+	font-size: 1rem;
+}
+
+a:link,
+a:visited,
+a:hover	{
+	text-decoration: none;
+	color: #f9faf8;
+}
 
 
 

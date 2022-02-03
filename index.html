@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SPACES</title>
 	<link rel="stylesheet" href="style-index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800;900&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="../../Desktop/Shared Folder/Web Dev/CSS Improvements/normalize.css">
 	<script src="../../Desktop/Shared Folder/Web Dev/CSS Improvements/modernizr-custom.js"></script>
 </head>
@@ -39,7 +42,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="info">
+		<section id="info">
 			<h2>Other good places around London</h2>
 			<div class="info-container">
 				<div class="info-items">
@@ -48,7 +51,7 @@
 							<img src="./Pictures/pexels-guillaume-meurice-2815034.jpg" alt="of a tower of Tower Bridge">
 						</a>
 					</picture>
-					<p>London Bridge, one of the most emblematic bridges in the city.</p>
+					<p>London Bridge, one of the most emblematic spots in the city.</p>
 				</div>
 				<div class="info-items">
 					<picture class="info-picture">
@@ -76,22 +79,26 @@
 				</div>
 			</div>
 		</section>
-		<section class="quote">
-			<blockquote>
-				In this city 300 languages are spoken and the people that speak them live side by side in harmony. This city typifies what I believe is the future of the human race and a future where we grow together and we share and we learn from each other.
-			</blockquote>
-			<p>-Ken Livingstone</p>
+		<section id="quote">
+				<blockquote>
+					In this city 300 languages are spoken and the people that speak them live side by side in harmony. This city typifies what I believe is the future of the human race and a future where we grow together and we share and we learn from each other.
+				</blockquote>
+				<p>-Ken Livingstone</p>
 		</section>
-		<section class="newsletter">
+		<section id="newsletter">
 			<div class="newsletter-box">
-				<h3>Is never late to become a Londoner</h3>
-				<p>If you want to know more about London, don't doubt to click the button</p>
-				<button>Sign up</button>
+				<div class="flex-items left-items">
+					<h3>It's never too late to become a Londoner!</h3>
+					<p>If you want to know more about London, don't doubt to click the button</p>
+				</div>
+				<div class="flex-items rigth-items">
+					<button>Sign up</button>
+				</div>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<p>webpage by: <a href=""></a>2G2-99</p>
+		<p>webpage by: <a href="">2G2-99</a></p>
 	</footer>
 </body>
 </html>
