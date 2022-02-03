@@ -1,93 +1,23 @@
 # Odin-Landing-Page
 Landing page for Odin's project assignmet
 
-In this 
+In this assignment I will implement all what has been learned of flex layout, with some other litle notions of HTML and CSS.
 
-
-
-
-
-Naveen Annam's pictures:
-Photo by Naveen Annam from Pexels
-
-Roxanne Shewchuk's pictures: 
-Photo by Roxanne Shewchuk from Pexels
-
-Matheus Viana's pictures:
-Photo by Matheus Viana from Pexels
+/
+List of source of images:
 
 Dominika Gregušová's pictures:
-Photo by Dominika Gregušová from Pexels
-
-Olga Lioncat's pictures:
-Photo by Olga Lioncat from Pexels
-
-Yelena Odintsova's pictures:
-Photo by Yelena Odintsova from Pexels
+https://www.pexels.com/@dominikagregus
 
 Guillaume Meurice's pictures:
-Photo by Guillaume Meurice from Pexels
-Photo by Guillaume Meurice from Pexels
+https://www.pexels.com/@sliceisop
 
-Vishal Shah's pictures:
-Photo by Vishal Shah from Pexels
+Naveen Annam's pictures:
+https://www.pexels.com/@naveen-annam-734127
 
+Yelena Odintsova's pictures:
+https://www.pexels.com/@yelenaodintsova
 
-
-<!--
-
-    header  {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 4vh
-    /*  */
-}
-
-.heading    {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 3em;
-    margin-right: auto;
-    background-color: salmon;
-
-}
-
-h1  {
-    font-family: serif;
-    font-weight: lighter;
-    letter-spacing: .5em;
-    text-decoration-line: underline;
-    /*  */
-    height: auto;
-}
-
-#header-list    {
-    align-items: center;
-    display: flex;
-    gap: 1.5em;
-    list-style-type: none;
-    margin-right: 3em;
-    padding: 0;
-    /*  */
-    background-color: seagreen;
-}
-
-#profile-pic-container  {
-    align-items: center;
-    display: flex;
-    margin-right: 1em;
-    /*  */
-    background-color: royalblue;
-}
-
-#profile-pic    {
-    width: 6vw;
-    border-radius: 50%;
-    height: 4vh;
-    margin: 0;
-}
-
-  -->
-
+Olga Lioncat's pictures:
+https://www.pexels.com/@olgalioncat
+/
