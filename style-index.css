@@ -1,5 +1,5 @@
 :root,
-body  {
+body {
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -12,41 +12,40 @@ body  {
 	box-sizing: inherit;
 }
 
-img	{
+img {
 	width: 10em;
 }
 
 /* HEADER */
-header	{
+header {
 	background-color: #1f2937;
 	color: #f9faf8;
 	display: flex;
 	flex-direction: column;
 }
 
-nav	{
+nav {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-nav .flex-items	{
+nav .flex-items {
 	align-items: center;
 	display: flex;
 	height: 2.5em;
 	justify-content: center;
 }
 
-#header-title	{
-	font-family: serif;
+#header-title {
+	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 2rem;
 	font-weight: lighter;
-	letter-spacing: .5em;
-	text-decoration-line: underline;
+	/* letter-spacing: 0.5em; */
 }
 
-#header-list	{
+#header-list {
 	display: flex;
 	gap: 1em;
 	list-style-type: none;
@@ -54,76 +53,76 @@ nav .flex-items	{
 	padding: 0;
 }
 
-nav .left-items	{
+nav .left-items {
 	margin-left: 15em;
 }
 
-nav .right-items	{
+nav .right-items {
 	margin-right: 15em;
 }
 
-.intro  {
+.intro {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
-	padding: 5em 15em; 
+	padding: 5em 15em;
 }
 
-.intro .flex-items  {
+.intro .flex-items {
 	display: flex;
 	width: 50%;
 }
 
-.intro .left-items	{
+.intro .left-items {
 	flex-direction: column;
 	justify-content: center;
 }
 
-.intro .right-items	{
+.intro .right-items {
 	align-content: center;
 	justify-content: flex-start;
 }
 
-.intro h2	{
+.intro h2 {
 	font-size: 3em;
 	font-weight: bold;
 	margin: 0;
 	text-align: start;
 }
 
-.intro p	{
+.intro p {
 	text-align: justify;
 }
 
-.intro button	{
+.intro button {
 	width: 6em;
 	height: 2em;
-	border-radius: .5em;
+	border-radius: 0.5em;
 	background-color: #3882f6;
 	color: #f9faf8;
 	font-weight: bolder;
 }
-.intro picture	{
+.intro picture {
 	display: flex;
 	justify-content: center;
 	width: 100%;
 }
 
-#intro-picture  {
+#intro-picture {
 	width: 40em;
 	height: 25em;
 	object-fit: cover;
 }
 
 /* MAIN */
-#info h2	{
+#info h2 {
 	color: #1f2937;
 	font-size: 2rem;
 	margin: 1em 0;
 	text-align: center;
 }
 
-.info-container	{
+.info-container {
 	align-items: center;
 	display: flex;
 	gap: 2em;
@@ -131,7 +130,7 @@ nav .right-items	{
 	margin-bottom: 2em;
 }
 
-.info-items	{
+.info-items {
 	display: flex;
 	flex-wrap: wrap;
 	height: 400px;
@@ -140,7 +139,7 @@ nav .right-items	{
 	width: 300px;
 }
 
-.info-picture	{
+.info-picture {
 	align-items: center;
 	display: flex;
 	height: 300px;
@@ -148,12 +147,12 @@ nav .right-items	{
 	width: 250px;
 }
 
-.info-picture a	{
+.info-picture a {
 	height: 100%;
 	width: 100%;
 }
 
-.info-picture img	{
+.info-picture img {
 	border: 8px solid #3882f6;
 	border-radius: 1em;
 	height: 100%;
@@ -161,7 +160,7 @@ nav .right-items	{
 	width: 100%;
 }
 
-.info-items p	{
+.info-items p {
 	align-self: flex-end;
 	color: #1f2937;
 	height: 80px;
@@ -171,7 +170,7 @@ nav .right-items	{
 
 /*  */
 
-#quote	{
+#quote {
 	background-color: #e5e7eb;
 	color: #1f2937;
 	display: flex;
@@ -180,7 +179,7 @@ nav .right-items	{
 	justify-content: center;
 }
 
-blockquote	{
+blockquote {
 	font-size: 2.5rem;
 	margin-bottom: 0;
 	padding: 1em;
@@ -188,24 +187,24 @@ blockquote	{
 	width: 70%;
 	font-weight: 200;
 }
-#quote p	{
+#quote p {
 	font-size: 1.5rem;
 	margin-left: 60em;
 	font-weight: 900;
 }
 
 /*  */
-#newsletter	{
+#newsletter {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
 }
 
-.newsletter-box	{
+.newsletter-box {
 	background-color: #3882f6;
 	color: #f9faf8;
-	border-radius: .5em;
+	border-radius: 0.5em;
 	padding: 2em 3em;
 	gap: 2em;
 	display: flex;
@@ -213,22 +212,22 @@ blockquote	{
 }
 
 .newsletter-box h3,
-.newsletter-box p	{
+.newsletter-box p {
 	margin: 0;
-	padding: .5em;
+	padding: 0.5em;
 }
 
-.newsletter-box button	{
+.newsletter-box button {
 	background-color: #3882f6;
 	border: 2ps solid #f9faf8;
-	border-radius: .5em;
+	border-radius: 0.5em;
 	width: 6em;
 	height: 2em;
 	color: #f9faf8;
 }
 
 /* FOOTER */
-footer	{
+footer {
 	background-color: #1f2937;
 	display: flex;
 	justify-content: center;
@@ -239,12 +238,7 @@ footer	{
 
 a:link,
 a:visited,
-a:hover	{
+a:hover {
 	text-decoration: none;
 	color: #f9faf8;
 }
-
-
-
-
-
